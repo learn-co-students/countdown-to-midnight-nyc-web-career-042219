@@ -8,9 +8,11 @@ number = 10
     puts "#{number} SECOND(S)!"
     number -= 1
     end
-      
+if number == 0
+  return "HAPPY NEW YEAR!"
+end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(int)
   sleep(5) 
 end
